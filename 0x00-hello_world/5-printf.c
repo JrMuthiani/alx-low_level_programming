@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Desription: prints "with proper grammar, but the outcome is a piece of art,"
+ * Desription: prints "with proper grammer, but the outcome is a piece of art,"
  * Return: 0
  */
 
