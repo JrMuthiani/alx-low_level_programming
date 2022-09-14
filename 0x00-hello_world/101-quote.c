@@ -1,9 +1,8 @@
-
 #include <stdio.h>
 
 /**
  * main - Print string
- * Description:Prints string without using put or printf
+ * Description: Prints string without using put or printf
  * Return: 1
  */
 
