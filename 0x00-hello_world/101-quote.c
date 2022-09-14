@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 /**
@@ -14,10 +15,10 @@ int main(void)
 	long syscall = 1;
 	long ret = 0;
 	__asm__ ("syscall"
-	: "=a" (ret) 
-	: "a" (syscall), 
-	"D" (fd), 
-	"S" (s), 
+	: "=a" (ret)
+	: "a" (syscall),
+	"D" (fd),
+	"S" (s),
 	"d" (l));
 	return (1);
 }
