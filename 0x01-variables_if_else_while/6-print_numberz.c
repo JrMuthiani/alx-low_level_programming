@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Desription: Print single digit numbers of base 10 without variable of type char
+ * Desription: Print single digit numbers of base 10 using putchar
  * Return: 0
  */
 
