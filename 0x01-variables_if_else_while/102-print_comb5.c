@@ -21,13 +21,13 @@ int main(void)
 			{
 				for (l = '0'; l <= '9'; l++)
 				{
-				if (((k + j) < (i + j) && k >= i) || i < k)
+				if (((k + l) < (i + j) && k >= i) || i < k)
 					{
 						putchar(i);
-						putchar(k);
-						putchar(' ');
 						putchar(j);
+						putchar(' ');
 						putchar(k);
+						putchar(l);
 						if (i + j + k + l == 227 && i == '9')
 						{
 						break;
