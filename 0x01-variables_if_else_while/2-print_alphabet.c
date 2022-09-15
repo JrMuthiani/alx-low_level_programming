@@ -9,12 +9,11 @@
 
 int main(void)
 {
-	int ch;
+	int c;
 
-	for (ch = "a"; ch <= "z"; ch++)
+	for (c = "A"; c <= "Z"; c++)
 	{
-		putchar(ch);
+		putchar(tolower(c));
 	}
-	putchar("\n");
-	return (0);
+	return (0)
 }
