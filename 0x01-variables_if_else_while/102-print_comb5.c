@@ -13,22 +13,22 @@ int main(void)
 	int k;
 	int l;
 
-	for (i = '0'; i <= '9'; i++)
+	for (i = 48; i <= 57; i++)
 	{
-		for (j = '0'; j <= '9'; j++)
+		for (j = 48; j <= 57; j++)
 		{
-			for (k = '0'; k <= '9'; k++)
+			for (k = 48; k <= 57; k++)
 			{
-				for (l = '0'; l <= '9'; l++)
+				for (l = 48; l <= 57; l++)
 				{
-				if (((k + l) < (i + j) && k >= i) || i < k)
+					if (((k + l) < (i + j) && k >= i) || i < k)
 					{
 						putchar(i);
 						putchar(j);
 						putchar(' ');
 						putchar(k);
 						putchar(l);
-						if (i + j + k + l == 227 && i == '9')
+						if (i + j + k + l == 227 && i == 57)
 						{
 						break;
 						}
