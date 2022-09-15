@@ -28,7 +28,7 @@ int main(void)
 						putchar(' ');
 						putchar(j);
 						putchar(k);
-						if (i + j + k + l == 227 && c = '9')
+						if (i + j + k + l == 227 && i = '9')
 						{
 							break;
 						}
