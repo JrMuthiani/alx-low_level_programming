@@ -21,7 +21,7 @@ int main(void)
 			{
 				for (l = '0'; l <= '9'; l++)
 				{
-					if (((k + j) < (i + j) && k >= i) || i <= k)
+				if (((k + j) < (i + j) && k >= i) || i < k)
 					{
 						putchar(i);
 						putchar(k);
@@ -30,12 +30,12 @@ int main(void)
 						putchar(k);
 						if (i + j + k + l == 227 && i == '9')
 						{
-							break;
+						break;
 						}
 						else
 						{
-							putchar(',');
-							putchar(' ');
+						putchar(',');
+						putchar(' ');
 						}
 					}
 				}
