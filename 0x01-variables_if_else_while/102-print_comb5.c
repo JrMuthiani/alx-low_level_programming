@@ -21,23 +21,23 @@ int main(void)
 			{
 				for (l = 48; l <= 57; l++)
 				{
-					if (((k + l) > (i + j) && k >= i) || i < k)
+				if (((k + l) > (i + j) && k >= i) || i < k)
+				{
+					putchar(i);
+					putchar(j);
+					putchar(' ');
+					putchar(k);
+					putchar(l);
+					if (i + j + k + l == 227 && i == 57)
 					{
-						putchar(i);
-						putchar(j);
-						putchar(' ');
-						putchar(k);
-						putchar(l);
-						if (i + j + k + l == 227 && i == 57)
-						{
-						break;
-						}
-						else
-						{
-						putchar(',');
-						putchar(' ');
-						}
+					break;
 					}
+					else
+					{
+					putchar(',');
+					putchar(' ');
+					}
+				}
 				}
 			}
 		}
