@@ -35,7 +35,7 @@ int main(void)
 
 	while (i <= 98)
 	{
-		if (f1o < 0)
+		if (f1o > 0)
 		{
 			printf("%lu", f1o);
 		}
