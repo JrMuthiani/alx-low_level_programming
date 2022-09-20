@@ -11,7 +11,7 @@ void jack_bauer(void)
 	int htens, hones, mtens, mones, hmax;
 
 	hmax = 58;
-	htens -'0';
+	htens = '0';
 
 	while (htens < '3')
 	{
@@ -39,7 +39,7 @@ void jack_bauer(void)
 				mones = '0';
 				mtens++;
 			}
-			mten = '0';
+			mtens = '0';
 			hones++;
 		}
 		hones = '0';
