@@ -26,7 +26,7 @@ void print_times_table(int n)
 					_putchar(((k / 10) % 10) + '0');
 					_putchar((k % 10) + '0');
 				}
-				else if (z > 9)
+				else if (k > 9)
 				{
 					_putchar(',');
 					_putchar(32);
