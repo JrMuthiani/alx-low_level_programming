@@ -11,12 +11,13 @@ int main(void)
 {
 	int i = 0;
 	int j = 1;
+	int next;
 	int sum = 0;
 
-	for (next = 0; next < 4000000; next = a + b)
+	for (next = 0; next < 4000000; next = i + j)
 	{
-		a = b;
-		b = next;
+		i = j;
+		j = next;
 		if (next % 2 == 0)
 		{
 			sum += next;
