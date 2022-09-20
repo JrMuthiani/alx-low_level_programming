@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha: Entry point
+ * _isalpha - Entry point
  * @c: receive integer value
  * Description: check if alphabet
  * Return: 1 if uppercase or lower, 0 if false
