@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * Description: Prints _putchar
- * Returns: 0 always
+ * main - Print _putcha as a message
+ *
+ * Return: 0 always success
  */
-
 int main(void)
 {
 	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
