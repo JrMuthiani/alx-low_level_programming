@@ -1,2 +1,1 @@
-This folder is about **Debugging**
-**Debugging* is the process of finding and fixing software errors taht prevent it from running correctly
+This folder is about **Debugging** - The process of finding and fixing software errors that prevent it from running correctly
