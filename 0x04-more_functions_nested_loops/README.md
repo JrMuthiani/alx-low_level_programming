@@ -1,5 +1,6 @@
 Functions in **C**;
 In this folder are functions that
+
 0. Checks for uppercase character
 1. Checks for a digit , 0 to 9
 2. Multiplies two integers
