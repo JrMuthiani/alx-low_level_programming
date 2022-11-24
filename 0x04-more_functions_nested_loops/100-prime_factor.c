@@ -14,7 +14,7 @@ int main(void)
 
 	while (num != 1)
 	{
-		if (num / divisor == 0)
+		if (num % divisor == 0)
 		{
 			num = num / divisor;
 			large_prime = divisor;
