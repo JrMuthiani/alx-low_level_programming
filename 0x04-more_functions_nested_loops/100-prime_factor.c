@@ -9,7 +9,7 @@
 int main(void)
 {
 	long num = 612852475143;
-	long divisor;
+	long divisor = 2;
 	long large_prime = 0;
 
 	while (num != 1)
