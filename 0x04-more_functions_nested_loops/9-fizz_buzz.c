@@ -28,10 +28,10 @@ int main(void)
 		}
 		else
 			printf("&d", a);
+		a++;
 
 		printf(" ");
 
-		a++;
 	}
 	printf("\n");
 	return (0);
