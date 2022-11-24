@@ -28,9 +28,10 @@ int main(void)
 		}
 		else
 			printf("%i", a);
-		a++;
+		if (a != 100)
+			printf(" ");
 
-		printf(" ");
+		a++;
 
 	}
 	printf("\n");
