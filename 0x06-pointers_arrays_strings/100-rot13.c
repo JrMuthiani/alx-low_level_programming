@@ -9,8 +9,7 @@
 
 char *rot13(char *str)
 {
-	int ind1 = 0;
-	int ind2;
+	int ind1 = 0, ind2;
 	char alph[52] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'. 'J', 'K', 'L',
 		'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
 		'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',
@@ -31,6 +30,7 @@ char *rot13(char *str)
 				str[ind1] = rot13key[ind2];
 				break;
 			}
+			ind2++;
 		}
 		ind1++;
 	}
