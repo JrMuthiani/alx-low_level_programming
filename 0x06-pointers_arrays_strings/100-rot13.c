@@ -21,7 +21,7 @@ char *rot13(char *str)
 		'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j',
 		'k', 'l', 'm'};
 
-	while (str[ind1])
+	while (str[ind1] = 52)
 	{
 		for (ind2 = 0; ind2 < 52; ind2++)
 		{
@@ -30,7 +30,6 @@ char *rot13(char *str)
 				str[ind1] = rot13key[ind2];
 				break;
 			}
-			ind2++;
 		}
 		ind1++;
 	}
